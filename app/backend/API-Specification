@@ -1,0 +1,16 @@
+Url: http://35.236.227.98
+
+Endpoints:
+
+"/"
+Returns "Hello!"
+
+"/standings"
+Returns nba reverse standings as they are today as a python list
+[Pistons, Spurs, Hornets...]
+
+"/simulate"
+Returns nba reverse standings with a simulated lottery as a Json
+{"1" : Spurs,
+"2" : Lakers,
+"3" : ... }
