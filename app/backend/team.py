@@ -46,6 +46,9 @@ class Standings():
         """
         Simulates the NBA lottery, updates randomized_standings
         """
+        # Update basic standings
+        self.basic_standings()
+        
         lottery_picks = self.named_standings[0:14]
         simulated = random.choices(lottery_picks, weights = (14, 14, 14, 12.5, 10.5, 9, 7.5, 6, 4.5, 3, 2, 1.5, 1, 0.5), k = 30)
         top_4 = []
