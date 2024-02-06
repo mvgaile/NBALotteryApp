@@ -1,6 +1,6 @@
 version: "3"
 services:    
     demo:        
-        image: "mvgaile/nba"            
+        image: "mvgaile/nba:1.1"            
         ports:                
             - "80:8000"
