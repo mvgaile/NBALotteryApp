@@ -13,7 +13,7 @@ def greeting():
 
 @app.route("/standings")
 def getStandings() -> list:
-    return nba_standings.named_standings 
+    return nba_standings.basic_standings() 
 
 @app.route("/simulate")
 def simulate() -> list:
